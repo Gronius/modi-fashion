@@ -1,25 +1,25 @@
-# Gulp сборка для верстки сайтов 
+# Gulp build for website layout
 
 - HTML,
 - SCSS,
 - Gulp,
 - JS
 
-Документация и примеры использования внутри.
+Documentation and usage examples inside.
 
-Установить зависимости:
+Install dependencies:
 ```
 npm i
 ```
 
-Зпустить в режиме разработки:
+Run in development mode:
 ```
 gulp
 ```
 
-Собрать версию для публикации:
+Build a version for publication:
 ```
 gulp docs
 ```
 
-[Смотреть демо](https://user.github.io/repo/)
+[Watch the demo](https://user.github.io/repo/)
