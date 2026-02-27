@@ -1,16 +1,19 @@
 .header {
-	background-color: #c0e4f4;
-	padding: 50px 0;
+  background: var(--white);
+  padding: 16px 0 18px;
 
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+	&__logo{
+		flex-shrink: 0;
 	}
-}
 
-.header__nav {
-	@include tablet {
-		display: none;
-	}
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ 
+  &__nav-btn {
+    display: none;
+  }
 }
