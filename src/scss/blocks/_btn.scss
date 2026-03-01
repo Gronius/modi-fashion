@@ -1,5 +1,6 @@
 .btn,
 a.btn {
+  display: inline-block;
   padding: 8px;
   min-width: 185px;
   height: 40px;
@@ -13,6 +14,12 @@ a.btn {
   text-transform: capitalize;
   text-align: center;
   color: var(--black);
+
+  &--small {
+    min-width: unset;
+    padding-inline: 15px;
+  
+  }
 
 
 }
