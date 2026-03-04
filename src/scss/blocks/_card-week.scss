@@ -1,0 +1,49 @@
+.card{
+  position: relative;
+}
+.card__fav-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 9;
+
+   &--selected .icon--favorite {
+    fill: var(--state-color-error);
+    stroke: var(--state-color-error);
+
+    &:hover {
+      stroke: var(--state-color-error);
+    }
+  }
+}
+
+.modiweek-title {
+  padding: 37px 8px 0 8px;
+  display: flex;
+  align-items: center;
+}
+.offer{
+  font-family: var(--font-family);
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--state-color-success);
+}
+.card__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: var(--black);
+
+  a {
+    color: var(--black);
+
+    &:hover{
+      color: var(--state-color-success);
+    }
+  }
+
+
+}

@@ -12,7 +12,7 @@ import Swiper from "swiper/bundle";
 // import styles bundle
 import "swiper/css/bundle";
 
-const swiper = new Swiper(".swiper", {
+const bestSwiper = new Swiper(".best-swiper", {
   // Optional parameters
   slidesPerView: 3,
   spaceBetween: 24,
@@ -26,3 +26,25 @@ const swiper = new Swiper(".swiper", {
 // Мобильная навигация
 import mobileNav from "./modules/mobile-nav.js";
 mobileNav();
+
+
+const modiweekSlider = new Swiper('.modiweek-slider', {
+  slidesPerView: 4.25,
+  spaceBetween: 20,
+  loop: true,
+
+  speed: 8000, // швидкість руху (чим більше — тим повільніше)
+
+  autoplay: {
+    delay: 2500, // без паузи між прокрутками
+    disableOnInteraction: false,
+  },
+
+  freeMode: true,
+  freeModeMomentum: false,
+
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+});

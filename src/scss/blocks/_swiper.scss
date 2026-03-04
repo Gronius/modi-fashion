@@ -21,3 +21,7 @@
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
 	bottom: 0 !important;
 }
+
+.modiweek-slider .swiper-wrapper {
+  transition-timing-function: linear;
+}

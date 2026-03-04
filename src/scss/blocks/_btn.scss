@@ -4,8 +4,10 @@ a.btn {
   padding: 8px;
   min-width: 185px;
   height: 40px;
+  border-radius: 6px;
 
   background: var(--white);
+  transition: background 0.3s ease;
 
   font-family: var(--font-family);
   font-weight: 400;
@@ -15,11 +17,16 @@ a.btn {
   text-align: center;
   color: var(--black);
 
+  &:hover {
+    -webkit-box-shadow: 1px 5px 14px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 5px 14px 4px rgba(0, 0, 0, 0.6);
+    background: transparent;
+    color: var(--white);
+    border: 1px solid var(--primary-primary400);
+  }
+
   &--small {
     min-width: unset;
     padding-inline: 15px;
-  
   }
-
-
 }

@@ -1,0 +1,38 @@
+.sustainability {
+  height: 526px;
+  padding-bottom: 44px;
+
+  background-image: url("./../../img/stability/sustainability.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include mediaBg() {
+    background-image: url("./../../img/stability/sustainability@2x.jpg");
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  &__content {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 12px;
+  }
+
+  &__title {
+    max-width: 494px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: right;
+    text-transform: capitalize;
+    color: var(--primary-primary800);
+  }
+}
