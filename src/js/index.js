@@ -14,12 +14,18 @@ import "swiper/css/bundle";
 
 const bestSwiper = new Swiper(".best-swiper", {
   // Optional parameters
-  slidesPerView: 3,
-  spaceBetween: 24,
+  slidesPerView: 2,
+  spaceBetween: 16,
   loop: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+      },
+       breakpoints: {
+        780: {
+          slidesPerView: 3,
+          spaceBetween: 24,
+        },
       },
 });
 

@@ -8,6 +8,10 @@
   @media (max-width: 1200px) {
     font-size: 26px;
   }
+
+  @include mobile {
+      margin-top: 24px;
+  }
 }
 
 .footer__grid {

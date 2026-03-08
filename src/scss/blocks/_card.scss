@@ -6,6 +6,11 @@
   top: 24px;
   right: 24px;
   z-index: 9;
+
+  @include mobile {
+    top: 10px;
+    right: 10px;
+  }
 }
 .card__btn-fav {
   &:hover .icon--favorite {
@@ -26,6 +31,10 @@
   padding: 5.5px 8px;
   display: grid;
   gap: 8px;
+
+  @include mobile {
+      padding: 2px;
+  }
 }
 .card__title {
   font-family: var(--font-family);
@@ -34,6 +43,11 @@
   line-height: 140%;
   text-transform: capitalize;
   color: var(--black);
+
+  @include mobile {
+    font-weight: 600;
+    font-size: 14px;
+  }
 
   a {
     color: var(--black);
@@ -53,6 +67,11 @@
   grid-template-columns: 1fr auto;
   align-items: center;
   gap: 12px;
+
+  @include mobile {
+      gap: 8px;
+  
+  }
 }
 .card__desc {
   font-family: var(--font-family);
@@ -61,6 +80,11 @@
   line-height: 180%;
   text-transform: capitalize;
   color: var(--black);
+
+  @include mobile {
+    font-size: 14px;
+    line-height: 140%;
+  }
 }
 .card__price {
   text-align: right;
@@ -70,6 +94,12 @@
   line-height: 180%;
   text-transform: capitalize;
   color: var(--black);
+
+  @include mobile {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+  }
 }
 .card__colors {
   display: flex;

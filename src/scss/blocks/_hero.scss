@@ -1,15 +1,25 @@
 .hero {
   height: 600px;
   padding-bottom: 103px;
-  
+
   background-color: #999;
   background-image: url("./../../img/hero/hero.jpg");
-  background-position: center center; /* x y */
+  background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
 
   @include mediaBg() {
     background-image: url("./../../img/hero/hero@2x.jpg");
+  }
+
+
+
+  @include mobile {
+      background-image: url('./../../img/hero/hero_m.jpg');
+      background-position: center 40%;
+       background-size: cover;
+      height: 551px;
+      padding-bottom: 16px;
   }
 
   .container {
@@ -25,6 +35,10 @@
   justify-content: flex-end;
   align-items: flex-start;
   gap: 27px;
+
+  @include mobile {
+      gap: 32px;
+  }
 }
 .hero__title {
   max-width: 494px;
@@ -35,4 +49,9 @@
   line-height: 180%;
   text-transform: capitalize;
   color: var(--black);
+
+  @include mobile {
+    max-width: 168px;
+    font-size: 20px;
+  }
 }

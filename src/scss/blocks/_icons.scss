@@ -11,7 +11,8 @@
   height: 24px;
 }
 
-.icon--search {
+.icon--search,
+.icon--menu {
   fill: var(--black);
 }
 .icon--person,
@@ -23,6 +24,9 @@
   stroke-width: 2px;
   stroke: var(--neutral-gray202020);
 }
+
+  
+
 .icon--instagram {
   fill: var(--white);
 }

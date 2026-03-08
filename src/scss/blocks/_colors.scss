@@ -3,6 +3,11 @@
   height: 24px;
   background-color: grey;
   border-radius: 50%;
+
+  @include tablet {
+    width: 16px;
+    height: 16px;
+  }
 }
 .color--black {
   background-color: var(--black);
@@ -13,16 +18,16 @@
 .color--green {
   background-color: var(--primary);
 }
-.color--olive{
+.color--olive {
   background-color: #989225;
 }
-.color--navy{
+.color--navy {
   background-color: #194418;
 }
-.color--pink{
-  background-color:  #d0a5ea;
+.color--pink {
+  background-color: #d0a5ea;
 }
-.color--white{
-  background-color:  #fff;
-  border: 1px solid #D0D0D0;
+.color--white {
+  background-color: #fff;
+  border: 1px solid #d0d0d0;
 }

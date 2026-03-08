@@ -25,8 +25,25 @@ a.btn {
     border: 1px solid var(--primary-primary400);
   }
 
+ @include mobile {
+      padding: 8px 9px;
+      min-width: unset;
+  }
+  
   &--small {
     min-width: unset;
     padding-inline: 15px;
   }
+
+  &--mobile-white{
+    @include mobile {
+      margin-top: 2px;
+      padding: 8px 16px;
+        &:hover{
+          color: var(--black);
+        }
+    }
+  }
+
+ 
 }
