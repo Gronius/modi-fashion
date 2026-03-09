@@ -35,16 +35,16 @@ mobileNav();
 
 
 const modiweekSlider = new Swiper('.modiweek-slider', {
-  slidesPerView: 4.25,
+  slidesPerView: 2.25,
   spaceBetween: 20,
   loop: true,
 
   speed: 8000, // швидкість руху (чим більше — тим повільніше)
 
-  autoplay: {
-    delay: 2500, // без паузи між прокрутками
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 2500, // без паузи між прокрутками
+  //   disableOnInteraction: false,
+  // },
 
   freeMode: true,
   freeModeMomentum: false,
@@ -52,5 +52,15 @@ const modiweekSlider = new Swiper('.modiweek-slider', {
         pagination: {
         el: ".swiper-pagination",
         clickable: true,
+      },
+        breakpoints: {
+        780: {
+          slidesPerView: 3.25,
+          spaceBetween: 24,
+        },
+                1274: {
+          slidesPerView: 4.25,
+          spaceBetween: 24,
+        },
       },
 });
