@@ -41,10 +41,10 @@ const modiweekSlider = new Swiper('.modiweek-slider', {
 
   speed: 8000, // швидкість руху (чим більше — тим повільніше)
 
-  // autoplay: {
-  //   delay: 2500, // без паузи між прокрутками
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 2500, // без паузи між прокрутками
+    disableOnInteraction: false,
+  },
 
   freeMode: true,
   freeModeMomentum: false,
