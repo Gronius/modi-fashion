@@ -25,25 +25,49 @@ a.btn {
     border: 1px solid var(--primary-primary400);
   }
 
- @include mobile {
-      padding: 8px 9px;
-      min-width: unset;
+  @include mobile {
+    padding: 8px 9px;
+    min-width: unset;
   }
-  
+
   &--small {
     min-width: unset;
     padding-inline: 15px;
   }
 
-  &--mobile-white{
+  &--mobile-white {
     @include mobile {
       margin-top: 2px;
       padding: 8px 16px;
-        &:hover{
-          color: var(--black);
-        }
+      &:hover {
+        color: var(--black);
+      }
     }
   }
+}
+a.btn-outline,
+.btn-outline {
+  display: inline-block;
+  border: 1px solid var(--primary-primary-600);
+  padding: 8px 16px;
+  height: 40px;
 
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-primary-600);
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    color: var(--link-accent);
+    background: var(--primary-primary50);
+  }
 }
