@@ -307,9 +307,14 @@ color: var(--white);
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.35s ease, visibility 0.35s ease;
+ 
+  @include mobile {
+      display: none;
+  }
+
 }
 
-.scroll-top.show {
+  .scroll-top.show {
   opacity: 1;
   visibility: visible;
 }
