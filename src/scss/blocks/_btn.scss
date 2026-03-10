@@ -71,3 +71,25 @@ a.btn-outline,
     background: var(--primary-primary50);
   }
 }
+
+.btn-scroll {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(#404040, #404040) padding-box,
+              linear-gradient(135deg, #ff0096, #0078ff) border-box;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.25s ease, filter 0.35s ease;
+}
+
+.btn-scroll:hover {
+  transform: translateY(-3px);
+  filter:
+    drop-shadow(0 0 6px rgba(255, 0, 150, 0.6))
+    drop-shadow(0 0 10px rgba(0, 120, 255, 0.5));
+}

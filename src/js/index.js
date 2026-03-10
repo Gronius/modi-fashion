@@ -72,3 +72,7 @@ mobileNav();
 
 import accordion from "./modules/accordion.js";
 accordion();
+
+//Scroll to up
+import scroll from "./modules/scroll.js";
+scroll();

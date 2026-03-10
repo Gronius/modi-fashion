@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 24 24" id="arrow-down" xmlns="http://www.w3.org/2000/svg">
     <path d="M7.41 8.29688L12 12.8769L16.59 8.29688L18 9.70687L12 15.7069L6 9.70687L7.41 8.29688Z"/>
+</symbol><symbol class="bbi bbi-arrow-up" viewBox="0 0 16 16" id="arrow-up" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
 </symbol><symbol viewBox="0 0 16 16" id="arrow_forward" xmlns="http://www.w3.org/2000/svg">
     <path d="M8.00033 2.66602L7.06033 3.60602L10.7803 7.33268H2.66699V8.66602H10.7803L7.06033 12.3927L8.00033 13.3327L13.3337 7.99935L8.00033 2.66602Z"/>
 </symbol><symbol viewBox="0 0 24 24" id="bag" xmlns="http://www.w3.org/2000/svg">
