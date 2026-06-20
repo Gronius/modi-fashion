@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build   # твій docs-пайплайн має створювати build/
+         path: ./docs    # твій docs-пайплайн має створювати build/
 
   deploy:
     runs-on: ubuntu-latest
