@@ -31,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # або ./, якщо сайт у корені
+          path: ./build  # або ./, якщо сайт у корені
 
   deploy:
     runs-on: ubuntu-latest
