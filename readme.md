@@ -22,4 +22,4 @@ Build a version for publication:
 gulp docs
 ```
 
-[Watch the demo](https://user.github.io/repo/)
+
