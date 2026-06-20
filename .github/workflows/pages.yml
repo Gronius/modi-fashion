@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Build site
-        run: gulp  # або gulp, якщо ти використовуєш Gulp
+        run: npm run build  # або gulp, якщо ти використовуєш Gulp
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
