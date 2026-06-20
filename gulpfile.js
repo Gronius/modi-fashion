@@ -23,3 +23,6 @@ gulp.task(
 		gulp.parallel('server:docs')
 	)
 );
+
+gulp.task('build', gulp.series('docs'));
+
