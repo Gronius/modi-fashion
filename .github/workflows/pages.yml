@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build site with Gulp
-        run: gulp build   # тепер цей таск існує!
+        run: gulp docs  # тепер цей таск існує!
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
