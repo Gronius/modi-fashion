@@ -33,6 +33,10 @@ jobs:
       - name: Build site with Gulp
         run: gulp docs
 
+      - name: List build output
+        run: ls -R ./docs
+
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
